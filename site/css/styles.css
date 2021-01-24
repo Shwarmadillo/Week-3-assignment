@@ -2,7 +2,7 @@ body {
   font-size: 16px;
   color: #fff;
   background-color: #61122f;
-  font-family: 'Oxygen', sans-serif;
+  font-family: sans-serif;
 }
 
 /** HEADER **/
@@ -13,7 +13,7 @@ body {
 }
 
 #logo-img {
-  background: url('../images/restaurant-logo_large.png') no-repeat;
+  background: red;
   width: 150px;
   height: 150px;
   margin: 10px 15px 10px 0;
@@ -23,7 +23,7 @@ body {
   padding-top: 25px;
 }
 .navbar-brand h1 { /* Restaurant name */
-  font-family: 'Lora', serif;
+  font-family: serif;
   color: #557c3e;
   font-size: 1.5em;
   text-transform: uppercase;
@@ -121,7 +121,7 @@ body {
 }
 
 #menu-tile, #specials-tile, #map-tile {
-  height: 250px;
+  height: 1000px;
   width: 100%;
   margin-bottom: 15px;
   position: relative;
@@ -141,7 +141,7 @@ body {
 }
 #menu-tile span, #specials-tile span, #map-tile span {
   position: absolute;
-  bottom: 0;
+  bottom: 96.5%;
   right: 0;
   width: 100%;
   text-align: center;
